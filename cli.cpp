@@ -5,7 +5,7 @@
  * @file
  * @brief      This file holds the implementation of the @ref cli class.
  * @author     Col. Walter E. Kurtz
- * @version    2019-01-29
+ * @version    2019-06-23
  * @copyright  GNU General Public License - Version 3.0
  */
 
@@ -101,7 +101,7 @@ void cli::help(const std::string& xname) const
 void cli::version() const
 {
   cout << endl;
-  cout << "version 2019-01-29.1" << endl;
+  cout << "version 2019-06-23.1" << endl;
   cout << endl;
 }
 

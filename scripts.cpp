@@ -5,7 +5,7 @@
  * @file
  * @brief      This file defines all members of the @ref scripts namespace.
  * @author     Col. Walter E. Kurtz
- * @version    2019-01-28
+ * @version    2019-06-23
  * @copyright  GNU General Public License - Version 3.0
  */
 
@@ -3332,7 +3332,7 @@ namespace scripts
     cout << "{" << endl;
     cout << endl;
     cout << "  echo \"FILENAME=%f|%1c~\\$COMPOSER~|/%f|\\$OPUS|/%f|\\$_RECID|/%f|%2z~\\$TRACKNUMBER~ \\$TITLE|.flac\"" << endl;
-    cout << "  echo \"IMAGE=\\$COMPILATIONID.png\"" << endl;
+    cout << "  echo \"IMAGE=\\$COMPILATIONID.$IMGEXT\"" << endl;
     cout << "  echo" << endl;
     cout << "  echo \"COMPILATIONID=$CHKSUM\"" << endl;
     cout << "  echo \"GENRE=Classical\"" << endl;
